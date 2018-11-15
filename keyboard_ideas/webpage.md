@@ -70,8 +70,11 @@ A balanced ANSI keyboard layout. Notice how 'Q', 'A', and 'Z' are all offset 0.5
 
 ---
 ---
+---
 
 # Personal Keyboard Ideas
+
+*Note: A 40% 14u is possible, but offers little benefit over a 40% 13u.*
 
 ### 40% 13u
 
