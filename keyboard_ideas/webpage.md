@@ -14,7 +14,7 @@ Caps Lock is seldom used, so why have it in such a prime key location next to th
 
 <img src="macbook_escape.png" title="MacBook Keyboard with Caps Lock switched with Escape">
 
-## Vim Style Navigation Cluster
+## Different Navigation Clusters
 
 The arrow key cluster in the bottom right corner of laptop keyboards is ubiquitous. Although it is comforting to have a dedicated arrow key cluster, its prevents the keyboard from having a right Control key, crucial for Windows users (Mac users do not have this problem as Command and Option are both activated by the thumbs). Is there a way to have an arrow key cluster without sacrificing the right Control key?
 
@@ -22,7 +22,11 @@ One possibility is to have a completely separate navigation cluster like so:
 
 <img src="surface_pro_5_keyboard_nav_cluster.png" title="Surface Pro 5 Keyboard with separate navigation cluster">
 
-Another possibility is to have a function activated vim like navigation cluster. To prevent hampering key chord combinations, it would be best if the navigation cluster was activated by its congruent hand (thus, the congruent thumb). I will note that there are keyboards, such as the Poker 60% series, that have a special layer key where Caps Lock is to activate a right hand IJKL navigation cluster.
+Another possibility is to shorten the spacebar:
+
+<img src="adding_ctrl_to_surface_pro_type_cover.png" width="800">
+
+Another (weirder) possibility is to have a function activated vim like navigation cluster. To prevent hampering key chord combinations, it would be best if the navigation cluster was activated by its congruent hand (thus, the congruent thumb). I will note that there are keyboards, such as the Poker 60% series, that have a special layer key where Caps Lock is to activate a right hand IJKL navigation cluster.
 
 <img src="surface_pro_5_keyboard_vim_nav_cluster.png" title="Surface Pro 5 Keyboard with Vim navigation cluster">
 
@@ -31,10 +35,6 @@ Another possibility is to have a function activated vim like navigation cluster.
 Some people complain about new laptop keyboards not having dedicated function keys and pause/break/etc. keys. This gripe could be quelled with a seven layer keyboard with one or maybe two programmable hotkey layer. (I personally think function keys should have there own dedicated buttons.)
 
 <img src="flexible_hotkey.png" title="Mix and match to your hearts content. No more disgruntled people">
-
-## Adding a right control to surface pro 4/5 type cover
-
-<img src="adding_ctrl_to_surface_pro_type_cover.png" width="800">
 
 ## Standard vs. Balanced Core
 
