@@ -12,7 +12,7 @@ Why not have a split Spacebar? Most people use one thumb for Spacebar, so the un
 
 Caps Lock is seldom used, so why have it in such a prime key location next to the left pinky? Why not have Escape, a more commonly used key, in its place?
 
-<img src="macbook_escape.png" title="MacBook Keyboard with Caps Lock switched with Escape">
+<img src="macbook_escape.png" title="MacBook Keyboard with Caps Lock switched with Escape" width="800">
 
 ## Different Navigation Clusters
 
@@ -20,7 +20,7 @@ The arrow key cluster in the bottom right corner of laptop keyboards is ubiquito
 
 One possibility is to have a completely separate navigation cluster like so:
 
-<img src="surface_pro_5_keyboard_nav_cluster.png" title="Surface Pro 5 Keyboard with separate navigation cluster">
+<img src="surface_pro_5_keyboard_nav_cluster.png" title="Surface Pro 5 Keyboard with separate navigation cluster" width="800">
 
 Another possibility is to shorten the spacebar:
 
@@ -28,7 +28,7 @@ Another possibility is to shorten the spacebar:
 
 Or remove the menu/right window key:
 
-<img src="" width="800">
+<img src="surface_pro_5_keyboard_removed_menu_key.png" title="Surface Pro 5 Keyboard with removed window key" width="800">
 
 Another (weirder) possibility is to have a function activated vim like navigation cluster. To prevent hampering key chord combinations, it would be best if the navigation cluster was activated by its congruent hand (thus, the congruent thumb). I will note that there are keyboards, such as the Poker 60% series, that have a special layer key where Caps Lock is to activate a right hand IJKL navigation cluster.
 
@@ -38,7 +38,7 @@ Another (weirder) possibility is to have a function activated vim like navigatio
 
 Some people complain about new laptop keyboards not having dedicated function keys and pause/break/etc. keys. This gripe could be quelled with a seven layer keyboard with one or maybe two programmable hotkey layer. (I personally think function keys should have there own dedicated buttons.)
 
-<img src="flexible_hotkey.png" title="Mix and match to your hearts content. No more disgruntled people">
+<img src="flexible_hotkey.png" title="Mix and match to your hearts content. No more disgruntled people" width="800">
 
 ## Standard vs. Balanced Core
 
@@ -68,173 +68,10 @@ A balanced ANSI keyboard layout. Notice how 'Q', 'A', and 'Z' are all offset 0.5
 
 **Breaking news: Microsoft's Surface Go is the first computer to have an essentially balanced core keyboard layout.**
 
-# Keyboard Mappings
+---
+---
 
-### Core - ANSI Modified 14u
-
-```
-["Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]","|\n\\"],
-[{w:1.25},"Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:1.75},"Enter"],
-[{w:1.75},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2.25},"Shift"]
-```
-
-### Core - ANSI Modified 14.5u
-
-```
-[{w:1.5},"Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]","|\n\\"],
-[{w:1.75},"Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:1.75},"Enter"],
-[{w:2.25},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2.25},"Shift"]
-```
-
-### Core - ANSI Modified 15u
-
-```
-[{w:1.5},"Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{w:1.5},"|\n\\"],
-[{w:1.75},"Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:2.25},"Enter"],
-[{w:2.25},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2.75},"Shift"]
-```
-
-### Core - Balanced 14u
-
-```
-["Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]","|\n\\"],
-[{w:1.5},"Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:1.5},"Enter"],
-[{w:2},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2},"Shift"]
-```
-
-### Core - Balanced 14.5u
-
-```
-[{w:1.25},"Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{w:1.25},"|\n\\"],
-[{w:1.75},"Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:1.75},"Enter"],
-[{w:2.25},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2.25},"Shift"]
-```
-
-### Core - Balanced 15u
-
-```
-[{w:1.5},"Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{w:1.5},"|\n\\"],
-[{w:2},"Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:2},"Enter"],
-[{w:2.5},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2.5},"Shift"]
-```
-
-### Theoretical - Symmetric 14u
-
-<img src="" width="800">
-
-```
-[{a:7},"",{a:4},"!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=","~\n`"],
-[{a:7,w:1.5},"",{a:4},"Q","W","E","R","T","Y","U","I","O","{\n[","}\n]",{a:7,w:1.5},""],
-["",{a:4},"|\n\\","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{a:7},""],
-[{a:4,w:1.5},"Shft","?\n/","Z","X","C","V","B","N","M","P","<\n,",">\n.",{w:1.5},"Shft"],
-["Ctrl",{a:7},"","",{a:4},"Super","Alt",{x:4},"Alt","Super",{a:7},"","",{a:4},"Ctrl"],
-[{rx:0.25,y:4,x:4.75,w:2},"Space",{w:2},"Bksp"]
-```
-
-### Theoretical - Symmetric 15u
-
-<img src="" width="800">
-
-```
-["Caps Lock",{a:7},"",{a:4},"!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=","~\n`"],
-["Tab",{a:7},"",{a:4},"Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]","|\n\\"],
-[{w:1.5},"Esc",{a:7},"",{a:4},"A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:1.5},"Enter"],
-[{w:2},"Shift",{a:7},"",{a:4},"Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2},"Shift"],
-[{w:1.5},"Ctrl",{a:7},"","",{a:4},"Super","Alt",{w:2},"Sp",{w:2},"Bksp","Alt","Super",{a:7},"","",{a:4,w:1.5},"Ctrl"]
-```
-
-### Theoretical - Semi-Symmetric 14u
-
-<img src="" width="800">
-
-```
-[{a:7},"",{a:4},"!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=","~\n`"],
-[{a:7},"",{a:4},"Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]","|\n\\"],
-[{a:7,w:1.5},"",{a:4},"A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{a:7,w:1.5},""],
-[{a:4,w:2},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2},"Shift"],
-[{w:1.25},"Ctrl",{a:7,w:1.25},"",{a:4},"Super","Alt",{w:2},"Sp",{w:2},"Bksp","Alt","Super",{a:7},"",{w:1.25},"",{a:4,w:1.25},"Ctrl"]
-```
-
-### Theoretical - Semi-Symmetric 15u
-
-<img src="" width="800">
-
-```
-[{a:7},"",{a:4},"!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=","|\n\\","~\n`"],
-[{y:3,a:7},"","",{x:1,a:4},"Super","Alt",{x:2,w:2},"Bksp","Alt","Super",{x:1,a:7},"","",""],
-[{rx:0.25,ry:0.25,y:0.75,x:-0.25,w:1.5},"",{a:4},"Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{a:7,w:1.5},""],
-[{x:-0.25,w:2},"",{a:4},"A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{a:7,w:2},""],
-[{x:-0.25,a:4,w:2.5},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2.5},"Shift"],
-[{x:1.75,a:7},"",{x:8},""],
-[{rx:0.5,ry:0,y:4,x:4.5,a:4,w:2},"Sp"]
-```
-
-### Macbook
-
-<img src="" width="800">
-
-```
-[{a:5},"~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{a:4,f:2,w:1.5},"\n\n\ndelete"],
-[{w:1.5},"\ntab",{a:7,f:3},"Q","W","E","R","T","Y","U","I","O","P",{a:5},"{\n[","}\n]","|\n\\"],
-[{a:4,f:2,w:1.75},"\ncaps lock",{a:7,f:3},"A","S","D","F","G","H","J","K","L",{a:5},":\n;","\"\n'",{a:4,f:2,w:1.75},"\n\n\nreturn"],
-[{w:2.25},"\nshift",{a:7,f:3},"Z","X","C","V","B","N","M",{a:5},"<\n,",">\n.","?\n/",{a:4,f:2,w:2.25},"\n\n\nshift"],
-["\nfn","\n\n\ncontrol","\n\n\noption",{w:1.25},"\n\n\ncommand",{a:7,f:3,w:5},"",{a:4,f:2,w:1.25},"\ncommand","\noption",{a:7,f:3},"<i class='kb kb-Multimedia-Back'></i>",{h:0.5},"<i class='kb kb-Multimedia-Up'></i>","<i class='kb kb-Multimedia-Play'></i>"],
-[{y:-0.5,x:12.5,h:0.5},"<i class='kb kb-Multimedia-Down'></i>"]
-```
-
-### Thinkpad X1 Carbon (All gen except 2nd)
-
-<img src="" width="800">
-
-```
-[{a:6,w:1.5,h:0.6},"Esc",{x:9,a:7,h:0.6},"Home",{h:0.6},"End",{h:0.6},"Insert",{a:6,w:1.5,h:0.6},"\n\nDelete"],
-[{ry:0.25,y:0.5,a:4},"~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{a:6,w:2},"\n\nBackspace"],
-[{w:1.5},"Tab",{a:4},"Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{w:1.5},"|\n\\"],
-[{a:6,w:1.75},"Caps Lock",{a:4},"A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{a:6,w:2.25},"\n\nEnter"],
-[{w:2.25},"Shift",{a:4},"Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{a:6,w:2.75},"\n\nShift"],
-["Fn",{w:1.25},"Ctrl",{a:7},"<i class='kb kb-logo-windows-8'></i>","Alt",{w:5},"",{a:6},"Alt","PrtSc","Ctrl",{w:0.9,h:0.7},"PgUp",{x:0.03,a:7,w:0.9,h:0.7},"<i class='kb kb-Multimedia-Up'></i>",{x:0.02,a:6,w:0.9,h:0.7},"\n\nPgDn"],
-[{y:-0.25,x:12.25,w:0.9,h:0.7},"<i class='kb kb-Multimedia-Back'></i>",{x:0.03,a:7,w:0.9,h:0.7},"<i class='kb kb-Multimedia-Down'></i>",{x:0.02,a:6,w:0.9,h:0.7},"\n\n<i class='kb kb-Multimedia-Play'></i>"]
-```
-
-### Surface Pro 4/5 Type Cover
-
-<img src="" width="800">
-
-```
-[{a:6,w:1.25,h:0.5},"Esc",{a:3,f:1,fa:[3],h:0.5},"<i class='kb kb-Unicode-Screen-Dim'></i>\n\n\n\n\nF1",{f:3,h:0.5},"<i class='kb kb-Unicode-Screen-Bright'></i>\n\n\n\n\nF2",{h:0.5},"<i class='kb kb-Multimedia-Play-Pause'></i>\n\n\n\n\nF3",{h:0.5},"<i class='fa fa-volume-off'></i>\n\n\n\n\nF4",{h:0.5},"<i class='fa fa-volume-down'></i>\n\n\n\n\nF5",{h:0.5},"<i class='fa fa-volume-up'></i>\n\n\n\n\nF6",{h:0.5},"<i class='fa fa-sun-o'></i>\n\n\n\n\nF7",{h:0.5},"PrtScn\n\n\n\n\nF8",{h:0.5},"Home\n\n\n\n\nF9",{h:0.5},"End\n\n\n\n\nF10",{h:0.5},"PgUp\n\n\n\n\nF11",{h:0.5},"PgDn\n\n\n\n\nF12",{a:2,w:1.25,h:0.5},"\n\nDel\n\nIns"],
-[{y:-0.5,a:5},"~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{a:6,w:1.5},"\n\nBackspace"],
-[{w:1.25},"Tab",{a:7},"Q","W","E","R","T","Y","U","I","O","P",{a:5},"{\n[","}\n]",{w:1.25},"|\n\\"],
-[{a:4,fa:[0,0,1],w:1.5},"\n\n<i class='kb kb-Multimedia-Record'></i>\n\n\n\nCaps",{a:7},"A","S","D","F","G","H","J","K","L",{a:5},":\n;","\"\n'",{a:6,f:3,w:2},"\n\nEnter"],
-[{w:2},"Shift",{a:7},"Z","X","C","V","B","N","M",{a:5},"<\n,",">\n.","?\n/",{a:6,f:3,w:2.5},"\n\nShift"],
-[{w:1.25},"Ctrl",{a:4},"\n\n<i class='kb kb-Multimedia-Record'></i>\n\n\n\n\n\n\nFn",{a:7,fa:[2]},"<i class='kb kb-logo-windows-8'></i>",{f:3},"Alt",{w:5.25},"",{f:3},"Alt",{f:3},"<i class='kb kb-Hamburger-Menu'></i>",{fa:[1]},"<i class='fa fa-chevron-left'></i>",{h:0.5},"<i class='fa fa-chevron-up'></i>","<i class='fa fa-chevron-right'></i>"],
-[{y:-0.5,x:12.5,h:0.5},"<i class='fa fa-chevron-down'></i>"]
-```
-
-### Laptop 14u
-
-<img src="laptop_14u.jpg" width="800">
-
-```
-["Caps Lock","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=","~\n`"],
-["Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]","|\n\\"],
-[{w:1.5},"Esc","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:1.5},"Enter"],
-[{w:2},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2},"Shift"],
-[{w:1.25},"Ctrl",{a:7},"",{a:4},"Win","Alt",{x:2.25,w:2.25},"Backspace","Alt","Win",{a:7},"","",{a:4,w:1.25},"Ctrl"],
-[{rx:0.25,y:4,x:4,w:2.25},"Space"]
-```
-
-### Function Layer Ideas
-
-<img src="" width="800">
-
-```
-["Mute","VolDn","VolUp","BrDn","BrUp","Mic","Light","PrtSc","<i class='kb kb-Multimedia-Rewind'></i>","<i class='kb kb-Multimedia-Play-Pause'></i>","<i class='kb kb-Multimedia-FastForwar'></i>",{x:2},"Power"],
-["Ins","F1","F2","F3","F4","F5","F6","F7","F8","F9","F10","F11","F12","Del"],
-[{y:0.25},"Ctrl","Fn","Super","Alt",{x:2.5,w:2.5},"Bksp","Alt","Super","Home","End","Ctrl"],
-[{x:5},"LMB","MMB","RMB",{x:3},"PgUp","Up","PgDn"],
-["ScrLk","SysRq","Pause","Break","Night Light","Battry Mode","Airpln Mode","Hibrnt","Lock","Sleep",{x:1},"Left","Down","Right"],
-[{rx:0.5,y:2.25,x:3.5,w:2.5},"Sp"]
-```
+# Personal Keyboard Ideas
 
 ### 40% 13u
 
@@ -260,17 +97,17 @@ A balanced ANSI keyboard layout. Notice how 'Q', 'A', and 'Z' are all offset 0.5
 [{x:4},"","","",""]
 ```
 
-### Preonic
+### Laptop 14u
 
-<img src="preonic.jpg" width="800">
+<img src="laptop_14u.jpg" width="800">
 
 ```
-["~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n="],
-["Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]"],
-["Esc","A","S","D","F","G","H","J","K","L",":\n;","\"\n'","Enter"],
-["Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/","|\n\\"],
-["Ctrl",{a:7},"",{a:4},"Win","Alt","Space",{a:7},"","",{a:4},"Back","Alt","Win",{a:7},"","",{a:4},"Ctrl"],
-[{rx:0.25,y:3,x:11.75},"Shift"]
+["Caps Lock","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=","~\n`"],
+["Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]","|\n\\"],
+[{w:1.5},"Esc","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:1.5},"Enter"],
+[{w:2},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2},"Shift"],
+[{w:1.25},"Ctrl",{a:7},"",{a:4},"Win","Alt",{x:2.25,w:2.25},"Backspace","Alt","Win",{a:7},"","",{a:4,w:1.25},"Ctrl"],
+[{rx:0.25,y:4,x:4,w:2.25},"Space"]
 ```
 
 ### Planck - Base Layer
@@ -326,4 +163,164 @@ A balanced ANSI keyboard layout. Notice how 'Q', 'A', and 'Z' are all offset 0.5
 ["",{a:4},"L5","L6","L7","L8",{a:7},"","",{a:4},"R5","R6","R7","R8",{a:7},""],
 ["",{a:4},"L9","L10","L11","L12",{a:7},"","",{a:4},"R9","R10","R11","R12",{a:7},""],
 ["","","","","","","","","","","",""]
+```
+
+### Macbook
+
+```
+[{a:5},"~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{a:4,f:2,w:1.5},"\n\n\ndelete"],
+[{w:1.5},"\ntab",{a:7,f:3},"Q","W","E","R","T","Y","U","I","O","P",{a:5},"{\n[","}\n]","|\n\\"],
+[{a:4,f:2,w:1.75},"\ncaps lock",{a:7,f:3},"A","S","D","F","G","H","J","K","L",{a:5},":\n;","\"\n'",{a:4,f:2,w:1.75},"\n\n\nreturn"],
+[{w:2.25},"\nshift",{a:7,f:3},"Z","X","C","V","B","N","M",{a:5},"<\n,",">\n.","?\n/",{a:4,f:2,w:2.25},"\n\n\nshift"],
+["\nfn","\n\n\ncontrol","\n\n\noption",{w:1.25},"\n\n\ncommand",{a:7,f:3,w:5},"",{a:4,f:2,w:1.25},"\ncommand","\noption",{a:7,f:3},"<i class='kb kb-Multimedia-Back'></i>",{h:0.5},"<i class='kb kb-Multimedia-Up'></i>","<i class='kb kb-Multimedia-Play'></i>"],
+[{y:-0.5,x:12.5,h:0.5},"<i class='kb kb-Multimedia-Down'></i>"]
+```
+
+### Thinkpad X1 Carbon (All gen except 2nd)
+
+```
+[{a:6,w:1.5,h:0.6},"Esc",{x:9,a:7,h:0.6},"Home",{h:0.6},"End",{h:0.6},"Insert",{a:6,w:1.5,h:0.6},"\n\nDelete"],
+[{ry:0.25,y:0.5,a:4},"~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{a:6,w:2},"\n\nBackspace"],
+[{w:1.5},"Tab",{a:4},"Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{w:1.5},"|\n\\"],
+[{a:6,w:1.75},"Caps Lock",{a:4},"A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{a:6,w:2.25},"\n\nEnter"],
+[{w:2.25},"Shift",{a:4},"Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{a:6,w:2.75},"\n\nShift"],
+["Fn",{w:1.25},"Ctrl",{a:7},"<i class='kb kb-logo-windows-8'></i>","Alt",{w:5},"",{a:6},"Alt","PrtSc","Ctrl",{w:0.9,h:0.7},"PgUp",{x:0.03,a:7,w:0.9,h:0.7},"<i class='kb kb-Multimedia-Up'></i>",{x:0.02,a:6,w:0.9,h:0.7},"\n\nPgDn"],
+[{y:-0.25,x:12.25,w:0.9,h:0.7},"<i class='kb kb-Multimedia-Back'></i>",{x:0.03,a:7,w:0.9,h:0.7},"<i class='kb kb-Multimedia-Down'></i>",{x:0.02,a:6,w:0.9,h:0.7},"\n\n<i class='kb kb-Multimedia-Play'></i>"]
+```
+
+### Surface Pro 4/5 Type Cover
+
+```
+[{a:6,w:1.25,h:0.5},"Esc",{a:3,f:1,fa:[3],h:0.5},"<i class='kb kb-Unicode-Screen-Dim'></i>\n\n\n\n\nF1",{f:3,h:0.5},"<i class='kb kb-Unicode-Screen-Bright'></i>\n\n\n\n\nF2",{h:0.5},"<i class='kb kb-Multimedia-Play-Pause'></i>\n\n\n\n\nF3",{h:0.5},"<i class='fa fa-volume-off'></i>\n\n\n\n\nF4",{h:0.5},"<i class='fa fa-volume-down'></i>\n\n\n\n\nF5",{h:0.5},"<i class='fa fa-volume-up'></i>\n\n\n\n\nF6",{h:0.5},"<i class='fa fa-sun-o'></i>\n\n\n\n\nF7",{h:0.5},"PrtScn\n\n\n\n\nF8",{h:0.5},"Home\n\n\n\n\nF9",{h:0.5},"End\n\n\n\n\nF10",{h:0.5},"PgUp\n\n\n\n\nF11",{h:0.5},"PgDn\n\n\n\n\nF12",{a:2,w:1.25,h:0.5},"\n\nDel\n\nIns"],
+[{y:-0.5,a:5},"~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=",{a:6,w:1.5},"\n\nBackspace"],
+[{w:1.25},"Tab",{a:7},"Q","W","E","R","T","Y","U","I","O","P",{a:5},"{\n[","}\n]",{w:1.25},"|\n\\"],
+[{a:4,fa:[0,0,1],w:1.5},"\n\n<i class='kb kb-Multimedia-Record'></i>\n\n\n\nCaps",{a:7},"A","S","D","F","G","H","J","K","L",{a:5},":\n;","\"\n'",{a:6,f:3,w:2},"\n\nEnter"],
+[{w:2},"Shift",{a:7},"Z","X","C","V","B","N","M",{a:5},"<\n,",">\n.","?\n/",{a:6,f:3,w:2.5},"\n\nShift"],
+[{w:1.25},"Ctrl",{a:4},"\n\n<i class='kb kb-Multimedia-Record'></i>\n\n\n\n\n\n\nFn",{a:7,fa:[2]},"<i class='kb kb-logo-windows-8'></i>",{f:3},"Alt",{w:5.25},"",{f:3},"Alt",{f:3},"<i class='kb kb-Hamburger-Menu'></i>",{fa:[1]},"<i class='fa fa-chevron-left'></i>",{h:0.5},"<i class='fa fa-chevron-up'></i>","<i class='fa fa-chevron-right'></i>"],
+[{y:-0.5,x:12.5,h:0.5},"<i class='fa fa-chevron-down'></i>"]
+```
+
+### Theoretical - Symmetric 14u
+
+<img src="theoretical_symmetric_14u.png" width="800">
+
+```
+[{a:7},"",{a:4},"!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=","~\n`"],
+[{a:7,w:1.5},"",{a:4},"Q","W","E","R","T","Y","U","I","O","{\n[","}\n]",{a:7,w:1.5},""],
+["",{a:4},"|\n\\","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{a:7},""],
+[{a:4,w:1.5},"Shft","?\n/","Z","X","C","V","B","N","M","P","<\n,",">\n.",{w:1.5},"Shft"],
+["Ctrl",{a:7},"","",{a:4},"Super","Alt",{x:4},"Alt","Super",{a:7},"","",{a:4},"Ctrl"],
+[{rx:0.25,y:4,x:4.75,w:2},"Space",{w:2},"Bksp"]
+```
+
+### Theoretical - Symmetric 15u
+
+<img src="theoretical_symmetric_15u.png" width="800">
+
+```
+["Caps Lock",{a:7},"",{a:4},"!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=","~\n`"],
+["Tab",{a:7},"",{a:4},"Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]","|\n\\"],
+[{w:1.5},"Esc",{a:7},"",{a:4},"A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:1.5},"Enter"],
+[{w:2},"Shift",{a:7},"",{a:4},"Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2},"Shift"],
+[{w:1.5},"Ctrl",{a:7},"","",{a:4},"Super","Alt",{w:2},"Sp",{w:2},"Bksp","Alt","Super",{a:7},"","",{a:4,w:1.5},"Ctrl"]
+```
+
+### Theoretical - Semi-Symmetric 14u
+
+<img src="theoretical_semi_symmetric_14u.png" width="800">
+
+```
+[{a:7},"",{a:4},"!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=","~\n`"],
+[{a:7},"",{a:4},"Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]","|\n\\"],
+[{a:7,w:1.5},"",{a:4},"A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{a:7,w:1.5},""],
+[{a:4,w:2},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2},"Shift"],
+[{w:1.25},"Ctrl",{a:7,w:1.25},"",{a:4},"Super","Alt",{w:2},"Sp",{w:2},"Bksp","Alt","Super",{a:7},"",{w:1.25},"",{a:4,w:1.25},"Ctrl"]
+```
+
+### Theoretical - Semi-Symmetric 15u
+
+<img src="theoretical_semi_symmetric_15u.png" width="800">
+
+```
+[{a:7},"",{a:4},"!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=","|\n\\","~\n`"],
+[{y:3,a:7},"","",{x:1,a:4},"Super","Alt",{x:2,w:2},"Bksp","Alt","Super",{x:1,a:7},"","",""],
+[{rx:0.25,ry:0.25,y:0.75,x:-0.25,w:1.5},"",{a:4},"Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{a:7,w:1.5},""],
+[{x:-0.25,w:2},"",{a:4},"A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{a:7,w:2},""],
+[{x:-0.25,a:4,w:2.5},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2.5},"Shift"],
+[{x:1.75,a:7},"",{x:8},""],
+[{rx:0.5,ry:0,y:4,x:4.5,a:4,w:2},"Sp"]
+```
+
+### Core - ANSI Modified 14u
+
+```
+["Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]","|\n\\"],
+[{w:1.25},"Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:1.75},"Enter"],
+[{w:1.75},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2.25},"Shift"]
+```
+
+### Core - ANSI Modified 14.5u
+
+```
+[{w:1.5},"Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]","|\n\\"],
+[{w:1.75},"Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:1.75},"Enter"],
+[{w:2.25},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2.25},"Shift"]
+```
+
+### Core - ANSI Modified 15u
+
+```
+[{w:1.5},"Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{w:1.5},"|\n\\"],
+[{w:1.75},"Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:2.25},"Enter"],
+[{w:2.25},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2.75},"Shift"]
+```
+
+### Core - Balanced 14u
+
+```
+["Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]","|\n\\"],
+[{w:1.5},"Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:1.5},"Enter"],
+[{w:2},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2},"Shift"]
+```
+
+### Core - Balanced 14.5u
+
+```
+[{w:1.25},"Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{w:1.25},"|\n\\"],
+[{w:1.75},"Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:1.75},"Enter"],
+[{w:2.25},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2.25},"Shift"]
+```
+
+### Core - Balanced 15u
+
+```
+[{w:1.5},"Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]",{w:1.5},"|\n\\"],
+[{w:2},"Caps Lock","A","S","D","F","G","H","J","K","L",":\n;","\"\n'",{w:2},"Enter"],
+[{w:2.5},"Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/",{w:2.5},"Shift"]
+```
+
+### Function Layer Ideas
+
+<img src="function_layer_ideas.png" width="800">
+
+```
+["Mute","VolDn","VolUp","BrDn","BrUp","Mic","Light","PrtSc","<i class='kb kb-Multimedia-Rewind'></i>","<i class='kb kb-Multimedia-Play-Pause'></i>","<i class='kb kb-Multimedia-FastForwar'></i>",{x:2},"Power"],
+["Ins","F1","F2","F3","F4","F5","F6","F7","F8","F9","F10","F11","F12","Del"],
+[{y:0.25},"Ctrl","Fn","Super","Alt",{x:2.5,w:2.5},"Bksp","Alt","Super","Home","End","Ctrl"],
+[{x:5},"LMB","MMB","RMB",{x:3},"PgUp","Up","PgDn"],
+["ScrLk","SysRq","Pause","Break","Night Light","Battry Mode","Airpln Mode","Hibrnt","Lock","Sleep",{x:1},"Left","Down","Right"],
+[{rx:0.5,y:2.25,x:3.5,w:2.5},"Sp"]
+```
+
+### Preonic
+
+<img src="preonic.jpg" width="800">
+
+```
+["~\n`","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n="],
+["Tab","Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]"],
+["Esc","A","S","D","F","G","H","J","K","L",":\n;","\"\n'","Enter"],
+["Shift","Z","X","C","V","B","N","M","<\n,",">\n.","?\n/","|\n\\"],
+["Ctrl",{a:7},"",{a:4},"Win","Alt","Space",{a:7},"","",{a:4},"Back","Alt","Win",{a:7},"","",{a:4},"Ctrl"],
+[{rx:0.25,y:3,x:11.75},"Shift"]
 ```
