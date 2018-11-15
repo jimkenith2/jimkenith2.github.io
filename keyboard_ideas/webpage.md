@@ -202,8 +202,6 @@ A balanced ANSI keyboard layout. Notice how 'Q', 'A', and 'Z' are all offset 0.5
 
 ### Theoretical - Symmetric 14u
 
-<img src="theoretical_symmetric_14u.png" width="800">
-
 ```
 [{a:7},"",{a:4},"!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=","~\n`"],
 [{a:7,w:1.5},"",{a:4},"Q","W","E","R","T","Y","U","I","O","{\n[","}\n]",{a:7,w:1.5},""],
@@ -215,8 +213,6 @@ A balanced ANSI keyboard layout. Notice how 'Q', 'A', and 'Z' are all offset 0.5
 
 ### Theoretical - Symmetric 15u
 
-<img src="theoretical_symmetric_15u.png" width="800">
-
 ```
 ["Caps Lock",{a:7},"",{a:4},"!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=","~\n`"],
 ["Tab",{a:7},"",{a:4},"Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]","|\n\\"],
@@ -227,8 +223,6 @@ A balanced ANSI keyboard layout. Notice how 'Q', 'A', and 'Z' are all offset 0.5
 
 ### Theoretical - Semi-Symmetric 14u
 
-<img src="theoretical_semi_symmetric_14u.png" width="800">
-
 ```
 [{a:7},"",{a:4},"!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=","~\n`"],
 [{a:7},"",{a:4},"Q","W","E","R","T","Y","U","I","O","P","{\n[","}\n]","|\n\\"],
@@ -238,8 +232,6 @@ A balanced ANSI keyboard layout. Notice how 'Q', 'A', and 'Z' are all offset 0.5
 ```
 
 ### Theoretical - Semi-Symmetric 15u
-
-<img src="theoretical_semi_symmetric_15u.png" width="800">
 
 ```
 [{a:7},"",{a:4},"!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=","|\n\\","~\n`"],
@@ -300,8 +292,6 @@ A balanced ANSI keyboard layout. Notice how 'Q', 'A', and 'Z' are all offset 0.5
 ```
 
 ### Function Layer Ideas
-
-<img src="function_layer_ideas.png" width="800">
 
 ```
 ["Mute","VolDn","VolUp","BrDn","BrUp","Mic","Light","PrtSc","<i class='kb kb-Multimedia-Rewind'></i>","<i class='kb kb-Multimedia-Play-Pause'></i>","<i class='kb kb-Multimedia-FastForwar'></i>",{x:2},"Power"],
