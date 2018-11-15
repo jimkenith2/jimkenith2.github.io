@@ -45,7 +45,7 @@ perl dkms`. Are the extra gcc, make, perl, and dkms actually necessary?)
 
 ## Ubuntu Minimal
 
-If you want a bare bones ubuntu system, install Ubuntu Minimal. You will be greeted with a terminal console. When given a list of different install options, don't select anything. To get any program with a graphical environment running (graphical programs, desktop environments, and window managers), you have to get an X window system. The most popular one is the X window system by X.org. Install it with `$sudo apt install xinit` and start it with `$startx`. It will start up in any DE/WM that is installed, so it is a good idea to go ahead and install your favorite DE/WM (I like the dwm window manager.)
+If you want a bare bones ubuntu system, install Ubuntu Minimal (note that currently, there is no support for UEFI, only BIOS. THere is a way to boot UEFI, but I haven't figured it out yet). You will be greeted with a terminal console. When given a list of different install options, don't select anything. To get any program with a graphical environment running (graphical programs, desktop environments, and window managers), you have to get an X window system. The most popular one is the X window system by X.org. Install it with `$sudo apt install xinit` and start it with `$startx`. It will start up in any DE/WM that is installed, so it is a good idea to go ahead and install your favorite DE/WM (I like the dwm window manager.)
 
 ## Random Notes
 
@@ -54,6 +54,7 @@ If you want a bare bones ubuntu system, install Ubuntu Minimal. You will be gree
 - Make a Bash script by naming a file with .sh extension and putting `#!/usr/bin/bash` on the top line. (The `#!`, called the shebang tells where the path (/usr/bin/) is to the interpreter (bash). This line is only important if you turn the script into an executable, but it is always good practice to put it in. You don't have to turn the Bash script into an executable; you can just run it with `$bash [filename.sh]`.
 - do check a packages dependencies, do `$apt-cache depends [package name]`.
 - check the weather with `$curl wttr.in`.
+- remove the annoying auto update thing with `$gsettings set com.ubuntu.update-notifier no-show-notifications true`.
 
 ## Various Program Notes
 

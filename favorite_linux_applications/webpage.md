@@ -64,7 +64,7 @@ All bolded applications can be installed with `$sudo apt install [app]`.
 - **blender** - 3D animation software. Large learning curve, but very efficient, robust, and feature packed. (You can do video editing and 3D modeling in it as well.)
 - **gimp** - photoshop equivalent.
 - **calcurse** - a terminal calendar.
-- **fzf** - command line fuzzy finder.
+- **fzy** - command line fuzzy finder. Supposedly better than fzf.
 - **mutt** - Ncurses terminal email. The competitor is **alpine**. **alpine** is easier to use out of box (think **nano** text editor style, with bottom menu), but **mutt** is more configurable.
 - **ledger** - terminal ledger.
 
