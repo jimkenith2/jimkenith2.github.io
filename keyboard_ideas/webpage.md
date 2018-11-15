@@ -26,6 +26,10 @@ Another possibility is to shorten the spacebar:
 
 <img src="adding_ctrl_to_surface_pro_type_cover.png" width="800">
 
+Or remove the menu/right window key:
+
+<img src="" width="800">
+
 Another (weirder) possibility is to have a function activated vim like navigation cluster. To prevent hampering key chord combinations, it would be best if the navigation cluster was activated by its congruent hand (thus, the congruent thumb). I will note that there are keyboards, such as the Poker 60% series, that have a special layer key where Caps Lock is to activate a right hand IJKL navigation cluster.
 
 <img src="surface_pro_5_keyboard_vim_nav_cluster.png" title="Surface Pro 5 Keyboard with Vim navigation cluster">
@@ -208,7 +212,7 @@ A balanced ANSI keyboard layout. Notice how 'Q', 'A', and 'Z' are all offset 0.5
 
 ### Laptop 14u
 
-<img src="laptop_14u" width="800">
+<img src="laptop_14u.jpg" width="800">
 
 ```
 ["Caps Lock","!\n1","@\n2","#\n3","$\n4","%\n5","^\n6","&\n7","*\n8","(\n9",")\n0","_\n-","+\n=","~\n`"],
