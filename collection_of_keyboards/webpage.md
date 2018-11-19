@@ -1,7 +1,5 @@
 # Collection of Keyboards
 
-<!--- <img src="" title="" width="800" --->
-
 ## Apple Keyboards
 
 <img src="macbook_pro_gen1.jpg" title="First Generation MacBook Keyboard" width="800">

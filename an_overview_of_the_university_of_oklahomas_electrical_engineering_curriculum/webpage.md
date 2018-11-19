@@ -1,7 +1,5 @@
 # An Overview of the University of Oklahoma's Electrical Engineering Curriculum
 
-For the 2017-2018 academic year.
-
 Courses can be divided into four groups: ECE required courses,  ECE elective courses, "general education" courses, and ECE required courses that are not related to ECE. ("General education" courses are courses required to be completed by every student at OU.)
 
 | ECE Required                            | ECE Elective          | General Education           | ECE Required, but not ECE related Classes |

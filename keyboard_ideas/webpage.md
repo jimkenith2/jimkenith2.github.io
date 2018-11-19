@@ -89,17 +89,6 @@ A balanced ANSI keyboard layout. Notice how 'Q', 'A', and 'Z' are all offset 0.5
 [{x:4},"",{a:4},"LMB","MMB","RMB",{a:7},""]
 ```
 
-### 40% 12u
-<img src="40_percent_12u.jpg" width="800">
-```
-["Tab","Q","W","E","R","T","Y","U","I","O","P","\"\n'"],
-["Esc","A","S","D","F","G","H","J","K","L",":\n;","Enter"],
-[{w:1.5},"Shift","Z","X","C","V","B","N","M","!\n,","?\n.",{w:1.5},"Shift"],
-["Ctrl","Fn","Win","Alt",{w:2},"Space",{w:2},"Backspace","Alt","Win","Fn","Ctrl"],
-[{y:0.25,x:4,a:7,w:1.5},"","",{w:1.5},""],
-[{x:4},"","","",""]
-```
-
 ### Laptop 14u
 
 <img src="laptop_14u.jpg" width="800">
@@ -303,6 +292,19 @@ A balanced ANSI keyboard layout. Notice how 'Q', 'A', and 'Z' are all offset 0.5
 [{x:5},"LMB","MMB","RMB",{x:3},"PgUp","Up","PgDn"],
 ["ScrLk","SysRq","Pause","Break","Night Light","Battry Mode","Airpln Mode","Hibrnt","Lock","Sleep",{x:1},"Left","Down","Right"],
 [{rx:0.5,y:2.25,x:3.5,w:2.5},"Sp"]
+```
+
+### 40% 12u
+
+<img src="40_percent_12u.jpg" width="800">
+
+```
+["Tab","Q","W","E","R","T","Y","U","I","O","P","\"\n'"],
+["Esc","A","S","D","F","G","H","J","K","L",":\n;","Enter"],
+[{w:1.5},"Shift","Z","X","C","V","B","N","M","!\n,","?\n.",{w:1.5},"Shift"],
+["Ctrl","Fn","Win","Alt",{w:2},"Space",{w:2},"Backspace","Alt","Win","Fn","Ctrl"],
+[{y:0.25,x:4,a:7,w:1.5},"","",{w:1.5},""],
+[{x:4},"","","",""]
 ```
 
 ### Preonic
