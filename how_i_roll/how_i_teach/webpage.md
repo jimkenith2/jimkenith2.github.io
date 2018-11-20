@@ -19,10 +19,9 @@ Tests do not consist of multiple sheets with a question on each sheet and space.
 
 I own two plastic bags, a blackboard bag and a whiteboard bag. The blackboard bag contains a pack of medium chalk and an eraser. The whiteboard bag contains a pack of black erase markers and an eraser.
 
-<embed src="syllabus_template.md.pdf" width="400">
-<embed src="test_template.md.pdf" width="400">
-<embed src="hw_template_one.md.pdf" width="400">
-<embed src="hw_template_two.md.pdf" width="400">
+<img src="syllabus_template.jpg" width="50%"><img src="hw_template_one.jpg" width="50%">
+
+<img src="test_template.jpg" width="50%"><img src="hw_template_two.jpg" width="50%">
 
 ## Markdown Code
 
@@ -62,16 +61,6 @@ I own two plastic bags, a blackboard bag and a whiteboard bag. The blackboard ba
 ```
 
 ```
-# Test 1
-
-1. This is question one.
-2. This is question two.
-3. This is question three.
-4. This is question four.
-5. This is question five.
-```
-
-```
 # Homework
 
 1. 1.1, 1.2
@@ -79,6 +68,16 @@ I own two plastic bags, a blackboard bag and a whiteboard bag. The blackboard ba
 3. 3.1
 4. 4.1
 5. 5.1
+```
+
+```
+# Test 1
+
+1. This is question one.
+2. This is question two.
+3. This is question three.
+4. This is question four.
+5. This is question five.
 ```
 
 ```
