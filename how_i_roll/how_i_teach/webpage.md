@@ -19,10 +19,10 @@ Tests do not consist of multiple sheets with a question on each sheet and space.
 
 I own two plastic bags, a blackboard bag and a whiteboard bag. The blackboard bag contains a pack of medium chalk and an eraser. The whiteboard bag contains a pack of black erase markers and an eraser.
 
-<img src="syllabus_template.jpg" width="800">
-<img src="test_template.jpg" width="800">
-<img src="hw_template_one.jpg" width="800">
-<img src="hw_template_two.jpg" width="800">
+<embed src="syllabus_template.md.pdf" width="600">
+<embed src="test_template.md.pdf" width="600">
+<embed src="hw_template_one.md.pdf" width="600">
+<embed src="hw_template_two.md.pdf" width="600">
 
 ## Markdown Code
 
