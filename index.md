@@ -4,21 +4,17 @@
 
 [An Overview of Apple Keyboard Layouts](an_overview_of_apple_keyboard_layouts/webpage.md)
 
-[Collection of Keyboards](collection_of_keyboards/webpage.md)
+[Keyboard Collection](keyboard_collection/webpage.md)
 
 [Default Packages](default_packages/webpage.md)
 
 [Essential Electronics Lab Items](essential_electronics_lab_items/webpage.md)
-
-[Favorite Books](favorite_books/webpage.md)
 
 [Favorite Linux Applications](favorite_linux_applications/webpage.md)
 
 [Keyboard Ideas](keyboard_ideas/webpage.md)
 
 [NASA Logo Project](nasa_logo_project/webpage.md)
-
-[Linux Notes](linux_notes/webpage.md)
 
 [Possible Improvements to Windows 10](possible_improvements_to_windows_10/webpage.md)
 

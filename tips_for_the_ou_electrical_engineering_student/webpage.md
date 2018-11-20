@@ -8,9 +8,9 @@
 2. Sparingly take non-degree required courses.
 3. Choose degree electives wisely.
 
-Theoretically, you can AP test out of ALL general education requirements EXCEPT the Non-western civilization elective. Additionally, it is important to note that ONE of the general education classes MUST be "upper division" (3000 or 4000 level).
+Theoretically, you can AP test out of all general education requirements EXCEPT the Non-western civilization elective. Additionally, it is important to note that one of the general education classes MUST be "upper division" (3000 or 4000 level).
 
-For general education requirements you are unable to test out of, take them during winter intersession (save the summer intersession for internships or research). This will give you more time to focus on the important classes during the fall and spring semesters.
+For general education requirements you are unable to test out of, take them during winter intersession. Save the summer intersession for internships, research, or personal pursuits. This will give you more time to focus on the important classes during the fall and spring semesters. Or if you are taking some really hard classes in the fall and spring semesters, save a couple gen eds as "padding classes" to give you even more time to focus on the hard classes.
 
 OU AP: <http://www.ou.edu/admissions/apply/transfer-credits/advanced-placement>
 
@@ -64,17 +64,9 @@ My advice is to always be flexible. You never know anything definitive about the
 
 You just need lots of time to go back and fourth between ClassNav and the check sheets. After a while, you should have a cursory list of possible (and available) classes that you can enroll in, and when the enrollment window opens, solidify your schedule and alter you plans for next semester.
 
-## Idea 1: Just because you are not in a class doesn't mean you can't sit in
+## Tip 3: Buy a [box of earplugs](https://www.amazon.com/Howard-Leight-Honeywell-Visibility-Disposable/dp/B0007XJOLG/ref=sr_1_9?ie=UTF8&qid=1540757473&sr=8-9&keywords=earplugs).
 
-There will be more non-required classes offered than you can or need to take. However, you can still sit in a class you are not enrolled in, so long as the professor is okay with it.
-
-## Question 1: What are the best study spots?
-
-For small breaks between classes, I would recommend studying anywhere. For long breaks between classes, the best study spots are the fourth floor of the Bizell library or a back corner of the Fine Arts library.  
-
-## Tip 3: Buy a [box of earplugs](https://www.amazon.com/Howard-Leight-Honeywell-Visibility-Disposable/dp/B0007XJOLG/ref=sr_1_9?ie=UTF8&qid=1540757473&sr=8-9&keywords=earplugs)
-
-It won't make people disappear, but it will make things quieter.
+Great for loud study spots. It won't make people disappear, but it will make things quieter.
 
 ## Tip 4: Don't buy food on campus
 
@@ -114,9 +106,15 @@ This will give you the best chance to:
 1. Really learn the class material, which is very important for subjects you want to become an expert at.
 2. Get a 4.0, which is crucial for being a scholarship worthy applicant to top graduate schools. It also never hurts when applying for jobs, too.
 
-## Tip 9: Take Gen Eds during Winter Intersession
+## Tip 9: Sit in on interesting classes you are not enrolled in
 
-Save Summer intersession for internships and research.
+There will be more non-required classes offered than you are required to take. However, just because you are not enrolled a class doesn't mean you can't sit in. Just check if the professor is okay with it.  
+
+---
+---
+---
+
+## Other Miscellaneous Stuff
 
 #### Possible Summer intersession classes
 
@@ -124,8 +122,8 @@ I recommend using your Summer for research or internships. However, if you have 
 
 - As I have mentioned above, save as many general education classes for Winter intersession as you can.
 - If it is your Summer before freshman year, you can take *Intro to Digital Design* (and *Digital Signals and Filtering with department permission* if you are gung ho). Taking Intro to Digital Design will get you one semester ahead in EE classes, and it is a very easy class.
+- *Professional Development* is another available required ECE class.
 - Math classes including *Intro to ODEs*, *Linear Algebra*, *Partial Differential Equations*, and *Applied Statistical Methods*
-- *Professional Development*
 
 #### The Best Digital Signal Processing Textbooks
 

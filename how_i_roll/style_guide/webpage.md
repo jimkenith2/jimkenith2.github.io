@@ -1,0 +1,46 @@
+# Style Guide
+
+## Handwritten Homework
+
+1. Preferably done in college ruled notebook, but the same format applies to engineering paper and blank paper.
+2. Almost everything is double spaced.
+3. "HW #" is the more efficient to write than "Homework", "Assignment", or "Problem Set".
+4. Name goes to right line, date starts from right line.
+5. First block reserved for listing questions.
+6. Hard and long questions start on a fresh sheet of paper. Easy and short questions get no page breaks.
+7. If a cover is needed, the top information bar (HW#, name, date) is transferred to the cover sheet.
+
+![Handwritten Homework Style Guide](handwritten_hw_style_guide.png)
+
+## Typed Homework
+
+1. Latex Article Class using Markdown and converted with Pandoc.
+2. Either the answers may be listed with H1 headers, or both problem and answer may be listed with H1 and H2 headers, respectively.
+
+![Typed Homework Style Guide](typed_hw_style_guide.png)
+
+Code for above example:
+
+```
+% Homework 1
+% Ian Kennedy
+% September 2, 2018
+
+# Problem 5.14
+
+This is the answer for answer only format.
+
+# Problem 5.16
+
+This is the problem for problem and answer format.
+
+## Answer
+
+This is the answer for problem and answer format.
+
+$$y = mx + b$$
+```
+
+## Presentation
+
+1. Use Latex Beamer Class using Makrdown and converted with Pandoc.
