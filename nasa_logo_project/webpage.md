@@ -4,8 +4,7 @@ This was a small project I did during my freshman year of college at the Univers
 
 These are the two logos I designed:  
 
-<img src="image1.png" width="400"/>
-<img src="image2.png" width="400"/>
+<img src="image1.png" width="50%"><img src="image2.png" width="50%">
 
 This is some extra description text I submitted with my logos:
 

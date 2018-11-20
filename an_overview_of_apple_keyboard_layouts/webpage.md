@@ -2,19 +2,19 @@
 
 ## The MacBook Keyboard
 
-<img src="macbook_pro_gen1.jpg" title="First Generation MacBook Keyboard" width="800">
+<img src="macbook_pro_gen1.jpg" title="First Generation MacBook Keyboard" width="100%">
 
-<img src="macbook_pro_gen2.jpg" title="Second Generation MacBook Keyboard" width="800">
+<img src="macbook_pro_gen2.jpg" title="Second Generation MacBook Keyboard" width="100%">
 
-<img src="macbook_air.jpg" title="MacBook Air Keyboard" width="800">
+<img src="macbook_air.jpg" title="MacBook Air Keyboard" width="100%">
 
-<img src="macbook_pro_gen3.jpg" title="Third Generation MacBook Keyboard" width="800">
+<img src="macbook_pro_gen3.jpg" title="Third Generation MacBook Keyboard" width="100%">
 
-<img src="macbook.jpg" title="12 Inch MacBook Keyboard" width="800">
+<img src="macbook.jpg" title="12 Inch MacBook Keyboard" width="100%">
 
-<img src="macbook_pro_gen4_non_touch_bar.jpg" title="Fourth Generation MacBook Keyboard (Non Touch Bar)" width="800">
+<img src="macbook_pro_gen4_non_touch_bar.jpg" title="Fourth Generation MacBook Keyboard (Non Touch Bar)" width="100%">
 
-<img src="macbook_pro_gen4_touch_bar.jpg" title="Fourth Generation MacBook Keyboard (Touch Bar)" width="800">
+<img src="macbook_pro_gen4_touch_bar.jpg" title="Fourth Generation MacBook Keyboard (Touch Bar)" width="100%">
 
 Since the first generation MacBook, the MacBook keyboard layout has not changed much. Ignoring the function row, only two minor changes have occurred. Between the third and fourth generation keyboards, the Spacebar row shrank to a one key height, and the left and right keys grew to a uniform one key height.
 
@@ -24,16 +24,16 @@ I personally think that, excluding the function row, the MacBook keyboard layout
 
 ## The Apple Keyboard
 
-<img src="apple_keyboard.jpg" title="Apple Keyboard" width="800">
+<img src="apple_keyboard.jpg" title="Apple Keyboard" width="100%">
 
-<img src="apple_keyboard_full.jpg" title="Full Size Apple Keyboard" width="800">
+<img src="apple_keyboard_full.jpg" title="Full Size Apple Keyboard" width="100%">
 
 The Apple Keyboard has the same layout and aesthetic as the second generation MacBook Keyboard. The Full Apple Keyboard only adjusts the Spacebar row slightly, expanding the keyboard one key to the right and having the Command, Option, and Control keys symmetrically fill in the rest of the space.
 
 ## The Apple Magic Keyboard
 
-<img src="magic_keyboard.jpg" title="Magic Keyboard" width="800">
+<img src="magic_keyboard.jpg" title="Magic Keyboard" width="100%">
 
-<img src="magic_keyboard_full.jpg" title="Full Size Magic Keyboard" width="800">
+<img src="magic_keyboard_full.jpg" title="Full Size Magic Keyboard" width="100%">
 
 The Apple Magic Keyboard is the successor to the Apple Keyboard, and it is Apple's current promoted keyboard. The function row is expanded to a one key height, Escape is lengthened to mimic the fourth generation MacBook keyboard, and the Spacebar row is shrunk to the now standard one key height (again, just like the fourth generation MacBook keyboard). The hot keys are kept the same, with the still annoyingly empty F6 and F7 keys.

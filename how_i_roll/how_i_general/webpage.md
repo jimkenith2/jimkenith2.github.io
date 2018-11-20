@@ -40,7 +40,7 @@ The school system revolves around the backpack. Any backpack is fine, as there a
 6. Hard and long questions start on a fresh sheet of paper. Easy and short questions get no page breaks.
 7. If a cover is needed, the top information bar (HW#, name, date) is transferred to the cover sheet.
 
-![Handwritten Homework Style Guide](handwritten_hw_style_guide.png)
+<img src="handwritten_hw_style_guide.png" width="50%">
 
 ## Typed Homework
 
@@ -49,7 +49,7 @@ The school system revolves around the backpack. Any backpack is fine, as there a
 3. If cover page is needed, include `documentclass: book` in YAML header.
 4. The date is the due date, not date of completion.
 
-![Typed Homework Style Guide](typed_hw_style_guide.png)
+<img src="typed_hw_style_guide.png" width="50%">
 
 Code for above example:
 

@@ -21,7 +21,7 @@ Courses can be divided into four groups: ECE required courses, ECE related cours
 
 *Note: Professional Elective details are listed in the third page of the EE Degree document. Essentially, a professional elective is any 3000+ Physics, Math, CS, or Engineering class.*
 
-<embed src="ee_degree.pdf" width="800" height="800">
+<embed src="ee_degree.pdf" width="100%">
 
 ## Textbooks Used
 
@@ -70,4 +70,4 @@ Five classes are swapped between the CpE and EE degree. They are listed in the t
 | Intro to Solid State Devices |     | Computer Architecture                   |
 | ECE Electives                |     | ECE/CS Electives                        |
 
-<embed src="cpe_degree.pdf" width="800" height="800">
+<embed src="cpe_degree.pdf" width="100%" height="800">
