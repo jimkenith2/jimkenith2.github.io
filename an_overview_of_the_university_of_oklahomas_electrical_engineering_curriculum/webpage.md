@@ -21,7 +21,7 @@ Courses can be divided into four groups: ECE required courses, ECE related cours
 
 *Note: Professional Elective details are listed in the third page of the EE Degree document. Essentially, a professional elective is any 3000+ Physics, Math, CS, or Engineering class.*
 
-<embed src="ee_degree.pdf" width="100%">
+<embed src="ee_degree.pdf" width="100%" height="100%">
 
 ## Textbooks Used
 
