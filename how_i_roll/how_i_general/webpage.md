@@ -2,8 +2,8 @@
 
 ## Creating Accounts
 
-- Example email: first.middle.last.number@gmail.com (john.jim.kenuth.4@gmail.com)
-- Example username: first.middle.last.number (john.jim.kenuth.4)
+- Example email: first.last.number@mail.com (john.kenuth.4@mail.com)
+- Example username: first.last.number (john.kenuth.4)
   - I keep a list of websites I have accounts for. When I stop using an account, I delete it.
 - Passwords:
   - I always create unique passwords for each account and store them in a physical location.
