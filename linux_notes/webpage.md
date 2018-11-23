@@ -47,6 +47,8 @@ perl dkms`. Are the extra gcc, make, perl, and dkms actually necessary?)
 
 If you want a bare bones ubuntu system, install Ubuntu Minimal (note that currently, there is no support for UEFI, only BIOS. THere is a way to boot UEFI, but I haven't figured it out yet). You will be greeted with a terminal console. When given a list of different install options, don't select anything. To get any program with a graphical environment running (graphical programs, desktop environments, and window managers), you have to get an X window system. The most popular one is the X window system by X.org. Install it with `$sudo apt install xinit` and start it with `$startx`. It will start up in any DE/WM that is installed, so it is a good idea to go ahead and install your favorite DE/WM (I like the dwm window manager.)
 
+One note: currently (Ubuntu Minimal 18.04) UEFI boot is not enabled. To fix this, follow ![this guide here](https://www.onetransistor.eu/2015/12/install-ubuntu-minimal-cd-uefi-enabled.html). The only issue the guide doens't address is that the CDROM will be read only. To fix this, mount the CDROM with write permissions using `mount -o rw,...`. (I can't remember. Fix this.)
+
 ## Random Notes
 
 - Completely uninstall an app with `$sudo apt purge [app name]`.
@@ -118,8 +120,6 @@ $git config --list
 $ git init
 w
 ```
-
-
 
 #### i3
 

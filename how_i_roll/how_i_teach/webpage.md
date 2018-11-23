@@ -29,7 +29,7 @@ A class is taught I become confident in the course material, pace, and lecture q
 
 Then, I start over again teaching a different course, following the same progression.
 
-<embed src="materials.pdf" width="100%">
+<embed src="materials.pdf" width="100%" height="800">
 
 ## Markdown Code
 
